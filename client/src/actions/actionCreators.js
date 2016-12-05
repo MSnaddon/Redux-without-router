@@ -3,3 +3,10 @@ export function extendArray(){
 		type: 'EXTENDARRAY'
 	}
 }
+
+export function addSpecificToArray(number){
+	return {
+			type: 'ADDTOARRAY',
+			number
+	}
+}
